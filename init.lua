@@ -24,10 +24,3 @@ map ("n", "<leader>f", ":NvimTreeFocus<Enter>", {desc = "focus file tree"})
 local builtin = require("telescope.builtin")
 map ("n", "<leader>n", builtin.find_files, {desc = "find file"}) 
 
-local config = require("nvim-treesitter.configs")
-
-config.setup({
-  ensure_installed = { "lua", "javascript", "html", "rust"},
-  highlight = { enable = true },
-  indent = { enable = true },  
-})
