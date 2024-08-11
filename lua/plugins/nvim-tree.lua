@@ -7,7 +7,7 @@ return {
   },
   config = function()
     require("nvim-tree").setup {}
-    vim.keymap.set("n", "<leader>t", ":NvimTreeToggle<Enter>", {desc = "toggle file tree"}) 
-    vim.keymap.set("n", "<leader>f", ":NvimTreeFocus<Enter>", {desc = "focus file tree"}) 
+    vim.keymap.set("n", "<leader>t", ":NvimTreeToggle<Enter>", { desc = "toggle file tree" })
+    vim.keymap.set("n", "<leader>f", ":NvimTreeFocus<Enter>", { desc = "focus file tree" })
   end,
 }
