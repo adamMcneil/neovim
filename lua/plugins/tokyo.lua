@@ -5,6 +5,6 @@ return {
     },
     config = function(_, opts)
         require("tokyonight").setup(opts) -- calling setup is optional
-        vim.cmd [[colorscheme tokyonight]]
+        vim.cmd [[colorscheme tokyonight-moon]]
     end,
 }
